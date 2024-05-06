@@ -82,9 +82,9 @@ span {
 
 .items {
     list-style: none;
-    padding: 10px;
     display: flex;
     justify-content: space-around;
+    padding: 10px;
     font-size: 25px;
     
 }
