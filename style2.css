@@ -1,0 +1,128 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --dark: #040d12;
+    --green: #183d3d;
+    --lgreen: #5c8374;
+    --light: #93b1a6;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif, serif;
+    display:flex;
+    flex-direction: column;
+
+}
+
+a {
+    align-self: flex-end;
+    color: var(--lgreen);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: var(--lgreen);
+    background-color: var(--dark);
+}
+
+.header {
+    background-color: var(--dark);
+    border: 5px solid var(--robinegg);
+    padding: 2%;
+}
+
+.h1 {
+    padding: 5px;
+    margin: auto;
+    background-color: var(--dark);
+    color: var(--lgreen);
+    width: fit-content;
+    font-size: 50px;
+    border: 5px solid var(--light);
+}
+
+.items {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: var(--white);
+}
+
+.container {
+    background-color: var(--green);
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid var(--light);
+}
+
+.container p {
+    color: var(--light);
+}
+
+img {
+    margin: 10px;
+    border: 5px solid var(--light);
+    justify-self: flex-end;
+}
+
+
+
+p {
+    padding: 5px;
+    width: fit-content;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: var(--dark);
+    text-align: center;
+    border: 5px solid var(--dark);
+}
+
+.Projects {
+    background-color: var(--lgreen);
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid var(--light);
+}
+
+.projects2 {
+    background-color: var(--lgreen);
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid var(--light);
+}
+
+.challengepic img{
+    height: 200px;
+    width: 250px;
+    justify-content: flex-end;
+
+}
+
+.currentprjt img {
+    float: right;
+    height: 200px;
+    width: 250px;
+}
+
+.footerLinks {
+    list-style: none;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--lgreen);
+    font-size: 25px;
+}
