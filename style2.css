@@ -89,7 +89,7 @@ span {
     
 }
 
-.container {
+#container {
     width: 80%;
     margin: auto;
     background-color: var(--lightb);
@@ -102,12 +102,12 @@ span {
     border-radius: 10px;
 }
 
-.container img {
+#container img {
     border: 5px solid var(--textcolor);
     border-radius: 5px;
 }
 
-.container p {
+#container p {
     color: var(--textcolor);
 }
 
@@ -160,7 +160,7 @@ p {
     border: 5px solid var(--lightb);
 }
 
-.projects2 {
+#projects2 {
     width: 80%;
     margin: auto;
     background-color: var(--lightb);
@@ -173,7 +173,7 @@ p {
     border-radius: 10px;
 }
 
-.projects2 h2 {
+#projects2 h2 {
     color: var(--light);
     background-color: var(--lightb);
     border: 5px solid var(--light);
@@ -195,7 +195,7 @@ p {
     border-radius: 5px;
 }
 
-.footerLinks {
+#footerLinks {
     list-style: none;
     text-align: center;
     background-color: var(--lightb);
@@ -205,6 +205,6 @@ p {
     border-radius: 5px;
 }
 
-.footerLinks a {
+#footerLinks a {
     color: var(--textcolor);
 }
