@@ -208,3 +208,17 @@ p {
 #footerLinks a {
     color: var(--textcolor);
 }
+ @media screen and (max-width: 768px) {
+   body,
+   #container,
+   #projects2,
+   #Projects,
+   #footerLinks,
+   .items,
+   .header {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+ }
