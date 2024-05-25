@@ -6,3 +6,6 @@
 
 ## link
 https://jocephuss.github.io/My-Portfolio/
+
+## Code Source
+All code is original and properly stored within assets folder.
